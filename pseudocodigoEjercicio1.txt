@@ -1,0 +1,32 @@
+Algoritmo Ejercicio1
+	
+	Escribir "Ingrese un Numero Entero"
+	Leer Num
+	i = 0
+	x = 0
+	z = 0
+	
+	hacer 
+		
+		n = aleatorio(1,100)
+		Escribir n
+		
+		Si n mod 2 == 0
+		
+			x = x + 1
+			
+		Sino
+			
+			z = z + 1
+			
+		FinSi
+		
+		i = i + 1
+		
+	Hasta Que i = Num 
+	
+	Escribir "Numeros son Pares: " x
+	Escribir "Numeros son Impares: " z
+	
+	
+FinAlgoritmo
